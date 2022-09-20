@@ -1,0 +1,29 @@
+.navbar-container{
+    background-color: lightgrey;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around ;
+    align-items: center;
+    border-radius: 5px;
+    
+
+    
+}
+
+.About{
+    cursor: pointer;
+}
+
+.Competences{
+    cursor: pointer;
+}
+
+.Projects{
+    cursor: pointer;
+}
+
+.Contact{
+    cursor: pointer;
+}
