@@ -28,7 +28,9 @@ function Home() {
                  Voluptatum quos odit nihil blanditiis ipsum minus, 
                  itaque quisquam sit laudantium ab!</p>:null
         }
-        <button onClick={() => setReadMore(!readMore)}  className='button' >View more</button>
+        <button onClick={() => setReadMore(!readMore)}  className='button' >{readMore ? "Read Less" : "Read More"}</button>
+        
+        
     </div>
   )
 }
