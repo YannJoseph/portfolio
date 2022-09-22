@@ -1,15 +1,12 @@
 import React from 'react'
 import { useState } from 'react'
-
+import { Button } from '@mui/material'
 
 
 function Home() {
 
     const [readMore, setReadMore]= useState(false)
 
-// const toggleBtn = () => {
-//     setReadMore(prevState => !prevState)
-// }
 
   return (
     <div className='Home-container'>
@@ -28,8 +25,8 @@ function Home() {
                  Voluptatum quos odit nihil blanditiis ipsum minus, 
                  itaque quisquam sit laudantium ab!</p>:null
         }
-        <button onClick={() => setReadMore(!readMore)}  className='button' >{readMore ? "Read Less" : "Read More"}</button>
-        
+        {/* <button onClick={() => setReadMore(!readMore)}  className='button' >{readMore ? "Read Less" : "Read More"}</button> */}
+        <Button variant='outlined' size='small' onClick={() => setReadMore(!readMore)}>{readMore? "Read Less" : "Read More"}</Button>
         
     </div>
   )

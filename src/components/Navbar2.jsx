@@ -7,10 +7,10 @@ function Navbar2() {
     <div className='navbar-container'>
         <div className='nav'>
             <ul className='nav__menu'>
-                <li className='nav__item'> <Link to="/Home">Home</Link></li>
+                <li className='nav__item'> <Link to="/">Home</Link></li>
                 <li className='nav__item'>Competences</li>
                 <li className='nav__item'>Projects</li>
-                <li className='nav__item'>Contact</li>
+                <li className='nav__item'><Link to="/contact">Contact</Link></li>
             </ul>
         </div>
     </div>
